@@ -1,0 +1,16 @@
+<?import javafx.scene.control.ColorPicker?>
+<?import javafx.scene.control.Slider?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.layout.AnchorPane?>
+<Pane fx:id="root" fx:controller="sample.Controller"
+      xmlns:fx="http://javafx.com/fxml"
+      onMouseClicked="#drawCircle">
+
+    <VBox>
+        <Slider fx:id="slider" min="10" max="100" scaleShape="true" visible="true"/>
+
+        <ColorPicker fx:id="color" scaleShape="true" layoutX="150" layoutY="0"/>
+    </VBox>
+
+</Pane>
